@@ -7,7 +7,7 @@ from grating import*
 
 ###==================== Helper functions copied from opti_alg_Mine.py and changed ==============###
 
-target_wavelength=532
+target_wavelength=
 min_diameter = 100
 min_distance = 100
 lateral_period=400.00
@@ -16,7 +16,7 @@ FoM_Dict_ByGeneration={}
 FoundFamilies = 0
 BestFoMSoFar = 0.000000000001
 BestFamily = []
-
+---------------------------------------------------------------------------------------------------------
 def sq_distance_mod(x0,y0,x1,y1,x_period,y_period):
     """squared distance between two points in a 2d periodic structure"""
     dx = min((x0 - x1) % x_period, (x1 - x0) % x_period)
